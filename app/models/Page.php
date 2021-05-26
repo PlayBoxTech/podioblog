@@ -221,4 +221,14 @@ not allowed fields:
 		return $out;
 	}
 
+	/**
+	 * get rss feed
+	 */
+	public function rss()
+	{
+		$sql="select longtitle, description,created_at, alias FROM ".$table_prefix."site_content WHERE published=1 AND type='document'";
+		$out=$this->db->exec($sql);
+		return $this->query;
+	}
+
 }
