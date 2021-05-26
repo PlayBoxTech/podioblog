@@ -1,6 +1,3 @@
----
-title:Welcome to PodioBlog
----
 # PodioBlog
 This is a blogging tool based off of [Low Fat CMS](https://github.com/fatfreelogin/lowfatcms). This tool is made specifically for podcasts who are wanting an easy to use podcast tool, without having all of the issues that come with WordPress. 
 
